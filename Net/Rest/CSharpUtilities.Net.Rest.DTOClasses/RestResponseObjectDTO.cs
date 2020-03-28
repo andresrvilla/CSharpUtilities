@@ -8,7 +8,7 @@ namespace CSharpUtilities.Net.Rest.DTOClasses
     {
         public object result { get; set; }
 
-        public RestResponseObjectDTO(bool ok, int statusCode, object result): base(ok, statusCode)
+        public RestResponseObjectDTO(object result): base(OK, STATUSCODE_OK)
         {
             this.result = result;
         }
