@@ -6,6 +6,6 @@ namespace CSharpUtilities.Entities.Interfaces
 {
     public interface IRowStatus
     {
-        int RowStatus { get; set; }
+        byte RowStatus { get; set; }
     }
 }
