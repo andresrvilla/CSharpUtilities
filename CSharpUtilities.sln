@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Entities.In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Entities", "Entities\CSharpUtilities.Entities\CSharpUtilities.Entities.csproj", "{86D6AA9E-F331-42B6-927A-F43CBF7C7329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Extensions.NetCore.Tests", "CSharpUtilities.Extensions.NetCore.Tests\CSharpUtilities.Extensions.NetCore.Tests.csproj", "{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{86D6AA9E-F331-42B6-927A-F43CBF7C7329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86D6AA9E-F331-42B6-927A-F43CBF7C7329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86D6AA9E-F331-42B6-927A-F43CBF7C7329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
