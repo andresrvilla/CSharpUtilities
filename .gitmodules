@@ -1,0 +1,3 @@
+[submodule "External/EnumUtiities"]
+	path = External/EnumUtiities
+	url = https://github.com/arogozine/EnumUtilities.git
