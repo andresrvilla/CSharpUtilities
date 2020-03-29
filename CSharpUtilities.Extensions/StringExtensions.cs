@@ -15,5 +15,21 @@ namespace CSharpUtilities.Extensions
                 return 0;
             }
         }
+
+        public static Guid ToGuid(this string id)
+        {
+            if (string.IsNullOrWhiteSpace(id))
+            {
+                throw new ArgumentException("id");
+            }
+            Guid guid = new Guid();
+
+            if (!Guid.TryParse(id, out guid))
+            {
+                throw new InvalidCastException();
+            }
+
+            return guid;
+        }
     }
 }
