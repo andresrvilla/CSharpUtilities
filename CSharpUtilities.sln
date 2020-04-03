@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Extensions.NetCore.Tests", "Extensions\CSharpUtilities.Extensions.NetCore.Tests\CSharpUtilities.Extensions.NetCore.Tests.csproj", "{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities.DataAccess.Interfaces", "Entities\DataAccess\CSharpUtilities.Entities.DataAccess.Interfaces\CSharpUtilities.Entities.DataAccess.Interfaces.csproj", "{5F16BBA7-D93F-44B5-93E0-3E0B4ED578DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities.DataAccess.Interfaces", "Entities\CSharpUtilities.Entities.DataAccess.Interfaces\CSharpUtilities.Entities.DataAccess.Interfaces.csproj", "{5F16BBA7-D93F-44B5-93E0-3E0B4ED578DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Entities.DataAccess", "Entities\DataAccess\CSharpUtilities.Entities.DataAccess\CSharpUtilities.Entities.DataAccess.csproj", "{3CC7F26E-2CE4-4AA1-88BB-071EB86C01E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Entities.DataAccess", "Entities\CSharpUtilities.Entities.DataAccess\CSharpUtilities.Entities.DataAccess.csproj", "{3CC7F26E-2CE4-4AA1-88BB-071EB86C01E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
