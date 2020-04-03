@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Extensions", "CSharpUtilities.Extensions\CSharpUtilities.Extensions.csproj", "{04D2DF7E-FEC6-4906-9899-8D4AA6BF0BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Extensions", "Extensions\CSharpUtilities.Extensions\CSharpUtilities.Extensions.csproj", "{04D2DF7E-FEC6-4906-9899-8D4AA6BF0BB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{AB5CB147-4914-4FE0-88F2-C7C5FA786C5A}"
 EndProject
@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities.In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities", "Entities\CSharpUtilities.Entities\CSharpUtilities.Entities.csproj", "{86D6AA9E-F331-42B6-927A-F43CBF7C7329}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Extensions.NetCore.Tests", "CSharpUtilities.Extensions.NetCore.Tests\CSharpUtilities.Extensions.NetCore.Tests.csproj", "{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Extensions.NetCore.Tests", "Extensions\CSharpUtilities.Extensions.NetCore.Tests\CSharpUtilities.Extensions.NetCore.Tests.csproj", "{95ADE8FA-7C84-4601-97B2-26519A4B1CB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities.DataAccess.Interfaces", "CSharpUtilities.Entities.DataAccess.Interfaces\CSharpUtilities.Entities.DataAccess.Interfaces.csproj", "{5F16BBA7-D93F-44B5-93E0-3E0B4ED578DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpUtilities.Entities.DataAccess.Interfaces", "Entities\DataAccess\CSharpUtilities.Entities.DataAccess.Interfaces\CSharpUtilities.Entities.DataAccess.Interfaces.csproj", "{5F16BBA7-D93F-44B5-93E0-3E0B4ED578DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Entities.DataAccess", "CSharpUtilities.Entities.DataAccess\CSharpUtilities.Entities.DataAccess.csproj", "{3CC7F26E-2CE4-4AA1-88BB-071EB86C01E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUtilities.Entities.DataAccess", "Entities\DataAccess\CSharpUtilities.Entities.DataAccess\CSharpUtilities.Entities.DataAccess.csproj", "{3CC7F26E-2CE4-4AA1-88BB-071EB86C01E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
