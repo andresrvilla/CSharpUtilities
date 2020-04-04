@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AndresVilla.CSharpUtilities</id>
+    <version>0.1.0-alpha</version>
+    <title>CSharp Utilities</title>
+    <authors>Andrés Villa</authors>
+    <owners>Roberto Andrés Villa</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://www.andres-villa.com.ar/</projectUrl>
+    <iconUrl>https://www.andres-villa.com.ar/</iconUrl>
+    <description>CSharp Utilities</description>
+    <summary>CSharp Utilities</summary>
+    <releaseNotes>CSharp Utilities</releaseNotes>
+    <copyright>Copyright 2020 Roberto Andrés Villa</copyright>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="licenses\license.txt" target="" />
+    <file src="Entities\CSharpUtilities.Entities\bin\Release\netstandard2.0\CSharpUtilities.Entities.dll" target="lib/netstandard2.0/" />
+    <file src="Entities\CSharpUtilities.Entities.DataAccess\bin\Release\netstandard2.0\CSharpUtilities.Entities.DataAccess.dll" target="lib/netstandard2.0/" />
+    <file src="Entities\CSharpUtilities.Entities.DataAccess.Interfaces\bin\Release\netstandard2.0\CSharpUtilities.Entities.DataAccess.Interfaces.dll" target="lib/netstandard2.0/" />
+    <file src="Entities\CSharpUtilities.Entities.Interfaces\bin\Release\netstandard2.0\CSharpUtilities.Entities.Interfaces.dll" target="lib/netstandard2.0/" />
+    <file src="Extensions\CSharpUtilities.Extensions\bin\Release\netstandard2.0\CSharpUtilities.Extensions.dll" target="lib/netstandard2.0/" />
+    <file src="Net\Rest\CSharpUtilities.Net.Rest.DTOClasses\bin\Release\netstandard2.0\CSharpUtilities.Net.Rest.DTOClasses.dll" target="lib/netstandard2.0/" />
+  </files>
+</package>

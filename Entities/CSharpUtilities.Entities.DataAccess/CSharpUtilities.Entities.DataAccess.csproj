@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CSharpUtilities.Entities.Interfaces\CSharpUtilities.Entities.Interfaces.csproj" />
     <ProjectReference Include="..\CSharpUtilities.Entities.DataAccess.Interfaces\CSharpUtilities.Entities.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\CSharpUtilities.Entities.Interfaces\CSharpUtilities.Entities.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
